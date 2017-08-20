@@ -1,5 +1,15 @@
 GCOV_PROFILE := y
 
+ccflags-y += -I$(src)
+
+ccflags-y += -I$(src)
+
+ccflags-y += -I$(src)
+
+ccflags-y += -I$(src)
+
+ccflags-y += -I$(src)
+
 subdir-ccflags-y := -Werror
 
 subdir-ccflags-y += -I$(srctree)/../t18x

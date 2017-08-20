@@ -12,6 +12,8 @@
  *
  */
 
+#include <linux/errno.h>
+
 #ifndef __TEGRA_MC_H
 #define __TEGRA_MC_H
 
